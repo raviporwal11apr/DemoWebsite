@@ -1,0 +1,228 @@
+/* creating container */
+body{
+    margin: auto;
+    background-color: whitesmoke;
+}
+.container{
+    width: 1000px;
+    height: auto;
+    background-color:white;
+    margin: auto;
+    font-family: sans-serif;
+}
+/* creating header */
+.logo{
+    float: left;
+    padding: 15px;
+}
+.search{
+    float: right;
+    padding: 40px;
+}
+.clearfix{
+    clear: both;
+}
+/* creating menu bar */
+.main-menu{
+    background-color: teal;
+}
+.main-menu> ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.main-menu> ul > li{
+    display: inline-block;
+}
+.main-menu> ul > li > a{
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: san-serif;
+    font-size: medium;
+    color: black;
+}
+.main-menu> ul > li > a:hover{
+    background-color: brown;
+}/* drop down menu */
+.drop{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: none;
+    z-index: 99; 
+}
+.drop > li > a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-family: san-serif;
+    font-size: medium;
+    color: black;
+    background-color: burlywood;
+}
+.main-menu> ul > li:hover .drop{
+    display: block;
+}
+.drop > li > a:hover{
+    background-color: brown;
+}
+.drop1{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: none;
+    z-index: 99;
+}
+.drop1 > li > a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-family: san-serif;
+    font-size: medium;
+    color: black;
+    background-color: burlywood;
+}
+.main-menu> ul > li:hover .drop1{
+    display: block;
+}
+.drop1 > li > a:hover{
+    background-color: brown;
+}
+
+/* banner */
+.banner{
+    width: 1000px;
+    height: 350px;
+    overflow: hidden;
+}
+.banner > img{
+    width: 100%;
+    height: auto;  
+}
+/* content holder */
+.content-holder{
+    width: 1000px;
+    background-color: royalblue;
+}
+.content{
+    width: 700px;
+    height: auto;
+    padding: 25px;
+    background-color: white;
+    float: left;
+}
+.content > h1{
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+.content > p{
+    font-family: sans-serif;
+}
+/* side bar */
+.sidebar{
+    float: left;
+    padding: 25px;
+}
+.sidebar > h3{
+    font-family: sans-serif;
+    color: white;
+}
+.sidebar > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.sidebar > ul >li >a{
+    display: block;
+    margin-bottom: 15px;
+    color: white;
+    font-family: serif;
+    font-style: italic;
+    text-decoration: none;
+}
+/* footer */
+.main-footer{
+    background-color: black;
+    color: white;
+    width: 950px;
+    height: auto;
+    padding: 25px;
+}
+.footer-box{
+    width: 237.5px;
+    height: auto;
+    float: left;
+    font-family: sans-serif;
+}
+.footer-box > ul{
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+}
+.footer-box > ul > Li > a{
+    display: block;
+    font-size: small;
+    margin-bottom: 15px;
+    color: white;
+    text-decoration: none;
+}
+address p{
+font-size: small;
+}
+.footer-box address a{
+    color: brown;
+    font-size: small;
+}
+.copy > p{
+    margin: 0px;
+}
+.copy{
+    background-color: crimson;
+    color: aquamarine;
+    text-align: center;
+    padding: 10px;
+}
+/* About us page */
+.content img{
+    max-width: 100%;
+}
+/* product page */
+.product{
+    width: 211.33px;
+    height: auto;
+    float: left;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+.product-caption {
+    font-weight: bold;
+    
+}
+.product-caption del{
+    color: red;
+}
+.product-caption ins{
+    color: green;
+}
+.product-caption a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: teal;
+    padding: 8px;
+    color: white;
+    font-size: small;
+    font-family: sans-serif;
+
+}
+.product-caption a:hover {
+    background-color: green;
+}
+.map iframe{
+    width: 100%;
+    height: 350px;
+}
